@@ -56,14 +56,14 @@ export default function Skills() {
     <>
       <NavBar />
       <div className="relative h-screen bg-gradient-to-b from-[#97C7FF] to-[#FEFFDF] w-full overflow-hidden ">
-        <div className="bg-green-100 w-screen h-auto flex justify-center items-center pt-5">
+        <div className=" w-screen h-auto flex justify-center items-center pt-5">
           <div className="bg-[url(./assets/skills.png)] bg-cover bg-center bg-no-repeat h-[90px] w-[250px] md:h-[80px] md:w-[250px] xl:h-[120px] "></div>
         </div>
 
         <div>
           <div
             ref={containerRef}
-            className="relative w-full h-screen flex items-center justify-center bg-gradient-to-br from-[#DDEDFF] to-white overflow-hidden select-none"
+            className="relative w-full h-screen flex items-center justify-center  overflow-hidden select-none"
             onMouseDown={onMouseDown}
             onMouseMove={onMouseMove}
             onMouseUp={onMouseUp}
