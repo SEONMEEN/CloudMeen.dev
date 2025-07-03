@@ -56,8 +56,8 @@ export default function Skills() {
     <>
       <NavBar />
       <div className="relative h-screen bg-gradient-to-b from-[#97C7FF] to-[#FEFFDF] w-full overflow-hidden ">
-        <div className="bg-green-100 w-screen h-auto flex justify-center items-center">
-          <div className="bg-[url(./assets/skills.png)] bg-cover bg-center bg-no-repeat h-[100px] w-[250px] md:h-[90px] md:w-[450px] xl:h-[120px] xl:w-[600px]"></div>
+        <div className="bg-green-100 w-screen h-auto flex justify-center items-center pt-5">
+          <div className="bg-[url(./assets/skills.png)] bg-cover bg-center bg-no-repeat h-[90px] w-[250px] md:h-[80px] md:w-[250px] xl:h-[120px] "></div>
         </div>
 
         <div>
@@ -104,8 +104,8 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className="absolute bg-[url(./assets/cloudskillsL.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[380px] left-0 bottom-0 z-[4]"></div>
-          <div className="absolute bg-[url(./assets/cloudskillsR.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[360px] right-0 bottom-0 z-[1]"></div>
+          <div className="absolute bg-[url(./assets/cloudskillsL.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[380px] md:w-[790px] md:h-[580px] xl:w-[700px] xl:h-[480px] left-0 bottom-0 z-[1]"></div>
+          <div className="absolute bg-[url(./assets/cloudskillsR.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[360px] md:w-[550px] md:h-[480px] xl:w-[850px] xl:h-[680px] right-0 bottom-0 z-[4]"></div>
         </div>
       </div>
     </>
