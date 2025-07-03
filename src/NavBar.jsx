@@ -6,7 +6,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#C7E1FF] flex items-center justify-between p-2 relative">
+    <nav className="z-99 bg-[#C7E1FF] flex items-center justify-between p-2 relative">
       <p className="font-bold text-white ">CloudMeen.dev</p>
 
       {/* Hamburger Menu Button */}
@@ -43,7 +43,7 @@ export default function NavBar() {
 
       {/* Mobile Slide Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-2/5 bg-white shadow-md p-5 transform transition-transform duration-300 ease-in-out z-50 ${
+        className={`z-99 fixed top-0 right-0 h-full w-2/5 bg-white shadow-md p-5 transform transition-transform duration-300 ease-in-out z-50 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >

@@ -22,3 +22,22 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
+/* src/style.css */
+@keyframes floatUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh);
+    opacity: 1;
+  }
+}
+
+.float-up {
+  animation: floatUp 8s ease-in infinite;
+}
