@@ -37,9 +37,8 @@ export default function NavBar() {
           Projects
         </a>
         <Link className="text-white" to="/skills">Skills</Link>
-        <a href="#" className="text-white">
-          Contact
-        </a>
+        <Link className="text-white" to="/contact">Contact</Link>
+
       </div>
 
       {/* Mobile Slide Menu */}

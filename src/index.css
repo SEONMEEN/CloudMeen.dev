@@ -16,3 +16,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
