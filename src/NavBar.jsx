@@ -33,9 +33,7 @@ export default function NavBar() {
       <div className="hidden md:flex flex-row text-base gap-2">
         <Link className="text-white" to="/">Home</Link>
         <Link className="text-white" to="/about">About</Link>
-        <a href="#" className="text-white">
-          Projects
-        </a>
+        <Link className="text-white" to="/projects">Projects</Link>
         <Link className="text-white" to="/skills">Skills</Link>
         <Link className="text-white" to="/contact">Contact</Link>
 
