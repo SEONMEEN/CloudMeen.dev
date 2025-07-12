@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./index.css";
+import "../index.css";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -31,12 +31,21 @@ export default function NavBar() {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex flex-row text-base gap-2">
-        <Link className="text-white" to="/">Home</Link>
-        <Link className="text-white" to="/about">About</Link>
-        <Link className="text-white" to="/projects">Projects</Link>
-        <Link className="text-white" to="/skills">Skills</Link>
-        <Link className="text-white" to="/contact">Contact</Link>
-
+        <Link className="text-white" to="/">
+          Home
+        </Link>
+        <Link className="text-white" to="/about">
+          About
+        </Link>
+        <Link className="text-white" to="/projects">
+          Projects
+        </Link>
+        <Link className="text-white" to="/skills">
+          Skills
+        </Link>
+        <Link className="text-white" to="/contact">
+          Contact
+        </Link>
       </div>
 
       {/* Mobile Slide Menu */}
@@ -61,21 +70,21 @@ export default function NavBar() {
           </svg>
         </button>
         <div className="flex flex-col space-y-4 mt-10">
-          <a href="#" className="text-[#C7E1FF]">
+          <Link className="text-[#C7E1FF]" to="/">
             Home
-          </a>
-          <a href="#" className="text-[#C7E1FF]">
+          </Link>
+          <Link className="text-[#C7E1FF]" to="/about">
             About
-          </a>
-          <a href="#" className="text-[#C7E1FF]">
+          </Link>
+          <Link className="text-[#C7E1FF]" to="/projects">
             Projects
-          </a>
-          <a href="#" className="text-[#C7E1FF]">
+          </Link>
+          <Link className="text-[#C7E1FF]" to="/skills">
             Skills
-          </a>
-          <a href="#" className="text-[#C7E1FF]">
+          </Link>
+          <Link className="text-[#C7E1FF]" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

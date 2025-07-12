@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import "./index.css";
+import "../index.css";
 
 export default function Contact() {
   return (
