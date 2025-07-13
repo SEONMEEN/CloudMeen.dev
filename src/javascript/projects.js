@@ -4,14 +4,17 @@ import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
 
 // Firebase Config ของคุณ
 const firebaseConfig = {
-  apiKey: "AIzaSyBamuowbj549lW8Q-gEEyWX5kibHLYFPWc",
-  authDomain: "projects-b3f73.firebaseapp.com",
-  projectId: "projects-b3f73",
-  storageBucket: "projects-b3f73.firebasestorage.app",
-  messagingSenderId: "513883546274",
-  appId: "1:513883546274:web:a6b23c3b739b69d34c2dfb",
-  measurementId: "G-PZEKYVC1QG",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
+
+console.log("Firebase Config:", firebaseConfig);
+
 
 // Init Firebase
 const app = initializeApp(firebaseConfig);
