@@ -104,8 +104,8 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className="absolute bg-[url(./assets/cloudskillsL.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[380px] md:w-[790px] md:h-[580px] xl:w-[700px] xl:h-[480px] left-0 bottom-0 z-[1]"></div>
-          <div className="absolute bg-[url(./assets/cloudskillsR.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[360px] md:w-[550px] md:h-[480px] xl:w-[850px] xl:h-[680px] right-0 bottom-0 z-[4]"></div>
+          <div className="absolute bg-[url(./assets/cloudskillsL.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[380px] md:w-[790px] md:h-[580px] xl:w-[700px] xl:h-[480px] 2xl:w-[900px] 2xl:h-[580px] left-0 bottom-0 z-[1]"></div>
+          <div className="absolute bg-[url(./assets/cloudskillsR.png)] bg-cover bg-center bg-no-repeat w-[590px] h-[360px] md:w-[550px] md:h-[480px] xl:w-[850px] xl:h-[680px] 2xl:w-[850px] 2xl:h-[680px] right-0 bottom-0 z-[4]"></div>
         </div>
       </div>
     </>
